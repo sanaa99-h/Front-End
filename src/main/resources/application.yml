@@ -1,0 +1,11 @@
+server:
+    port: 8085
+spring:
+    thymeleaf:
+        cache: false
+        enabled: true
+        prefix: classpath:/templates/
+        suffix: .html
+api:
+    url: http://localhost:8083/api
+
